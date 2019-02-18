@@ -20,7 +20,6 @@ class String
     splitArrayQue = self.split("?")
     union = splitArrayPer.union(splitArrayEx, splitArrayQue)
       binding.pry
-    end
     splitArray.length
   end
 end
