@@ -16,7 +16,7 @@ class String
 
   def count_sentences
     characters = [".","!","?"]
-    splitArray
+    splitArray = []
     i = 0
     while i < characters.length do
       splitArray << self.split(characters[i])
