@@ -20,6 +20,8 @@ class String
     i = 0
     while i < characters.length
       splitArray << self.split(characters[i])
+      i++
+    end
     # splitArray.each do |element|
     #   binding.pry
     #   element.split("?")
