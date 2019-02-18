@@ -20,7 +20,7 @@ class String
     i = 0
     while i < characters.length do
       splitArray << self.split(characters[i])
-      i++
+      i =+ 1
     end
     splitArray
     # splitArray.each do |element|
