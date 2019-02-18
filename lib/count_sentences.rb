@@ -17,8 +17,8 @@ class String
   def count_sentences
     splitArray = self.split(".")
     splitArray.each do |element|
+      secondSplitArr = element.split("?")
       binding.pry
-      element.split("?")
     end
     splitArray.length
   end
