@@ -21,6 +21,7 @@ class String
     while i < characters.length do
       splitArray << self.split(characters[i])
       i += 1
+      irb
     end
     splitArray
     # splitArray.each do |element|
