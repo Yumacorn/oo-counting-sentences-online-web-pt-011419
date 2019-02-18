@@ -18,7 +18,7 @@ class String
     characters = [".","!","?"]
     splitArray
     i = 0
-    while i < characters.length
+    while i < characters.length do
       splitArray << self.split(characters[i])
       i++
     end
