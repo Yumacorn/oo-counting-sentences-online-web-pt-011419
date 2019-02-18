@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    splitArray = self.split(".")
+    splitArray = self.split('(\W+)',1)
     # splitArray.each do |element|
     #   binding.pry
     #   element.split("?")
