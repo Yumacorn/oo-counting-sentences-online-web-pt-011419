@@ -22,6 +22,7 @@ class String
       splitArray << self.split(characters[i])
       i++
     end
+    splitArray
     # splitArray.each do |element|
     #   binding.pry
     #   element.split("?")
