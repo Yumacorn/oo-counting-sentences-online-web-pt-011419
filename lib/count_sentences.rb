@@ -15,19 +15,10 @@ class String
   end
 
   def count_sentences
-    characters = [".","!","?"]
-    splitArray = []
-    i = 0
-    while i < characters.length do
-      splitArray << self.split(characters[i])
-      i += 1
+    splitArray.each do |element|
       binding.pry
+      element.split("?")
     end
-    splitArray
-    # splitArray.each do |element|
-    #   binding.pry
-    #   element.split("?")
-    # end
     splitArray.length
   end
 end
