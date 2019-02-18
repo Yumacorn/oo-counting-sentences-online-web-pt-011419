@@ -18,7 +18,7 @@ class String
     splitArrayPer = self.split(".")
     splitArrayEx = self.split("!")
     splitArrayQue = self.split("?")
-    union = splitArrayPer.union(splitArrayEx, splitArrayQue)
+    unioned = splitArrayPer.union(splitArrayEx, splitArrayQue)
       binding.pry
     splitArray.length
   end
